@@ -1,7 +1,7 @@
-$token = "{SlackToken}"
-$user = "{UserEmail}"
+$token = "{1678104112102.3030969797888}"
+$user = "{allen@vitaltech.com}"
 $channelsCsv = "{ChannelsCsvPath}"
-$csvPath = "Report.csv"
+$csvPath = "C:\Users\AllenQuiros\DesktopslackIDs.csv"
 $reports = @()
 
 $channels = import-csv  $channelsCsv
